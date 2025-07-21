@@ -13,7 +13,7 @@ export const RESUME_DATA: ResumeData = {
       systems in Rust, Redis, and PostgreSQL on the side.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4", // replace with your actual avatar if hosted
+  avatarUrl: "https://raw.githubusercontent.com/ChayanNath/my-cv/refs/heads/main/public/unnamed.jpg",
   personalWebsiteUrl: "https://chayannath.xyz",
   contact: {
     email: "chayannath19@gmail.com",

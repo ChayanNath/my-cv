@@ -84,7 +84,7 @@ function ContactButtons({
       className="flex list-none gap-x-1 pt-1 font-mono text-sm text-foreground/80 print:hidden"
       aria-label="Contact links"
     >
-      {personalWebsiteUrl && (
+      {/* {personalWebsiteUrl && (
         <li>
           <SocialButton
             href={personalWebsiteUrl}
@@ -92,7 +92,7 @@ function ContactButtons({
             label="Personal website"
           />
         </li>
-      )}
+      )} */}
       {contact.email && (
         <li>
           <SocialButton
