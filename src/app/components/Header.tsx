@@ -198,7 +198,6 @@ export function Header() {
           personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
         />
       </div>
-
       <Avatar
         className="size-28"
         src={RESUME_DATA.avatarUrl}
