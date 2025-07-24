@@ -56,16 +56,7 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
-    description: RESUME_DATA.about,
-    creator: "@ChayanNath",
-  },
-  alternates: {
-    canonical: RESUME_DATA.personalWebsiteUrl,
-  },
+  }
 };
 
 export const viewport: Viewport = {
