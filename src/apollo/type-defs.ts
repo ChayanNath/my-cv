@@ -34,6 +34,9 @@ export class Education {
 
   @Field(() => String)
   end: string;
+
+  @Field(() => String, { nullable: true })
+  description?: string;
 }
 
 @ObjectType()
@@ -100,9 +103,6 @@ export class Me {
 
   @Field(() => String)
   about: string;
-
-  @Field(() => String)
-  summary: string;
 
   @Field(() => String)
   avatarUrl: string;

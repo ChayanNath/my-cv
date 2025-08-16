@@ -9,7 +9,7 @@ import { Education } from "./components/Education";
 import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
-import { Summary } from "./components/Summary";
+
 import { WorkExperience } from "./components/WorkExperience";
 
 export const metadata: Metadata = {
@@ -84,9 +84,9 @@ export default function ResumePage() {
           </SectionErrorBoundary>
 
           <div className="space-y-8 print:space-y-4">
-            <SectionErrorBoundary sectionName="Summary">
+            <SectionErrorBoundary sectionName="Skills">
               <Suspense fallback={<SectionSkeleton lines={2} />}>
-                <Summary summary={RESUME_DATA.summary} />
+                <Skills skills={RESUME_DATA.skills} />
               </Suspense>
             </SectionErrorBoundary>
 
@@ -96,21 +96,15 @@ export default function ResumePage() {
               </Suspense>
             </SectionErrorBoundary>
 
+            <SectionErrorBoundary sectionName="Side Projects">
+              <Suspense fallback={<SectionSkeleton lines={5} />}>
+                <Projects projects={RESUME_DATA.projects} />
+              </Suspense>
+            </SectionErrorBoundary>
+
             <SectionErrorBoundary sectionName="Education">
               <Suspense fallback={<SectionSkeleton lines={3} />}>
                 <Education education={RESUME_DATA.education} />
-              </Suspense>
-            </SectionErrorBoundary>
-
-            <SectionErrorBoundary sectionName="Skills">
-              <Suspense fallback={<SectionSkeleton lines={2} />}>
-                <Skills skills={RESUME_DATA.skills} />
-              </Suspense>
-            </SectionErrorBoundary>
-
-            <SectionErrorBoundary sectionName="Projects">
-              <Suspense fallback={<SectionSkeleton lines={5} />}>
-                <Projects projects={RESUME_DATA.projects} />
               </Suspense>
             </SectionErrorBoundary>
           </div>
