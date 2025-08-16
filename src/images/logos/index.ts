@@ -6,7 +6,7 @@ import ClevertechLogo from "./clevertech.png";
 import ConsultlyLogo from "./consultly.svg";
 import EvercastLogo from "./evercast.svg";
 import Howdy from "./howdy.png";
-import JarockiMeLogo from "./jarocki.svg";
+import ChayanLogo from "./chayan.svg";
 import JojoMobileLogo from "./jojomobile.png";
 import Minimal from "./minimal.svg";
 import MonitoLogo from "./monito.svg";
@@ -25,7 +25,7 @@ export {
   ClevertechLogo,
   EvercastLogo,
   Howdy,
-  JarockiMeLogo,
+  ChayanLogo,
   JojoMobileLogo,
   MonitoLogo,
   MobileVikingsLogo,

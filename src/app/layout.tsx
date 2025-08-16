@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     template: `%s | ${RESUME_DATA.name}`,
   },
   description: RESUME_DATA.about,
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
   keywords: [
     "resume",
     "cv",
