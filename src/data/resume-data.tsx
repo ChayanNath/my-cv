@@ -9,7 +9,7 @@ export const RESUME_DATA: ResumeData = {
     "Software Engineer Specialist with 4+ years of experience in full-stack development, specializing in Angular, React, Node.js, and distributed systems. Proven track record of delivering enterprise-scale applications. Expert in building scalable real-time systems, and driving technical excellence across frontend, backend, and DevOps practices.",
   avatarUrl:
     "https://raw.githubusercontent.com/ChayanNath/my-cv/refs/heads/main/public/unnamed.jpg",
-  personalWebsiteUrl: "https://chayannath.xyz",
+  personalWebsiteUrl: "",
   contact: {
     email: "chayannath19@gmail.com",
     tel: "+91 7975700887",
