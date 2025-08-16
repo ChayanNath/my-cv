@@ -116,8 +116,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "Built enterprise-grade AI-powered personal search engine processing 10K+ documents with semantic search capabilities. Implemented secure OAuth integration with 4+ platforms, vector embeddings for 1M+ data points, and real-time synchronization across Gmail, Google Docs, Slack, and Notion APIs. Achieved 95% search accuracy and 200ms response time for complex queries.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/ChayanNath/recall-ai",
+        label: "Live",
+        href: "https://recallai.chayannath.online",
       },
     },
     {
