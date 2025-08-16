@@ -55,7 +55,7 @@ export const RESUME_DATA: ResumeData = {
               Established agile development practices, leading sprint planning, code reviews, and stakeholder demos with cross-functional teams of 8+ developers
             </li>
             <li>
-              Developed backend microservices using Java and RDF-based semantic modeling, handling enterprise-scale data for 1000+ concurrent users
+              Developed backend microservices using Java and RDF-based semantic modeling, developing multiple new features and fixing bugs.
             </li>
             <li>
               Implemented comprehensive testing strategy, increasing automated test coverage from 60% to 95% and reducing production bugs by 80%
