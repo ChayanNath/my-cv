@@ -29,11 +29,11 @@ export const RESUME_DATA: ResumeData = {
   education: [
     {
       school: "Cambridge Institute of Technology",
-      degree:
-        "Bachelor of Engineering in Computer Science (CGPA: 8.6 / 10.0)",
+      degree: "Bachelor of Engineering in Computer Science (CGPA: 8.6 / 10.0)",
       start: "2017",
       end: "2021",
-      description: "Relevant coursework: Data Structures & Algorithms, Database Management Systems, Software Engineering, Computer Networks, Operating Systems, Web Technologies, Machine Learning Fundamentals",
+      description:
+        "Relevant coursework: Data Structures & Algorithms, Database Management Systems, Software Engineering, Computer Networks, Operating Systems, Web Technologies, Machine Learning Fundamentals",
     },
   ],
   work: [
@@ -46,25 +46,35 @@ export const RESUME_DATA: ResumeData = {
       end: "Present",
       description: (
         <>
-          Lead frontend development for enterprise Materials Management application serving Fortune 500 clients, managing complete software development lifecycle from requirements to production deployment.
+          Lead frontend development for enterprise Materials Management
+          application serving Fortune 500 clients, managing complete software
+          development lifecycle from requirements to production deployment.
           <ul className="list-inside list-disc">
             <li>
-              Architected and implemented reusable Angular component library, reducing feature development time by 60% and improving UI consistency across 15+ modules
+              Architected and implemented reusable Angular component library,
+              reducing feature development time by 60% and improving UI
+              consistency across 15+ modules
             </li>
             <li>
-              Established agile development practices, leading sprint planning, code reviews, and stakeholder demos with cross-functional teams of 8+ developers
+              Established agile development practices, leading sprint planning,
+              code reviews, and stakeholder demos with cross-functional teams of
+              8+ developers
             </li>
             <li>
-              Developed backend microservices using Java and RDF-based semantic modeling, developing multiple new features and fixing bugs.
+              Developed backend microservices using Java and RDF-based semantic
+              modeling, developing multiple new features and fixing bugs.
             </li>
             <li>
-              Implemented comprehensive testing strategy, increasing automated test coverage from 60% to 95% and reducing production bugs by 80%
+              Implemented comprehensive testing strategy, increasing automated
+              test coverage from 60% to 95% and reducing production bugs by 80%
             </li>
             <li>
-              Resolved critical P0 production issues within SLA, maintaining 99.9% system uptime and strengthening customer trust
+              Resolved critical P0 production issues within SLA, maintaining
+              99.9% system uptime and strengthening customer trust
             </li>
             <li>
-              Mentored 3 junior developers on Angular architecture, testing best practices, and enterprise software development methodologies
+              Mentored 3 junior developers on Angular architecture, testing best
+              practices, and enterprise software development methodologies
             </li>
           </ul>
         </>
@@ -79,16 +89,25 @@ export const RESUME_DATA: ResumeData = {
       end: "Aug 2023",
       description: (
         <>
-          Developed full-stack IoT analytics platform serving 50+ industrial clients, delivering real-time dashboards and responsive web applications for enterprise manufacturing environments.
+          Developed full-stack IoT analytics platform serving 50+ industrial
+          clients, delivering real-time dashboards and responsive web
+          applications for enterprise manufacturing environments.
           <ul className="list-inside list-disc">
             <li>
-              Engineered real-time data processing pipeline integrating IoT sensors with ECharts visualization, providing 70% faster operational insights and driving 25% increase in client profitability
+              Engineered real-time data processing pipeline integrating IoT
+              sensors with ECharts visualization, providing 70% faster
+              operational insights and driving 25% increase in client
+              profitability
             </li>
             <li>
-              Architected and deployed Progressive Web App (PWA) with offline-first capabilities, improving field productivity by 40% in low-connectivity industrial environments
+              Architected and deployed Progressive Web App (PWA) with
+              offline-first capabilities, improving field productivity by 40% in
+              low-connectivity industrial environments
             </li>
             <li>
-              Collaborated with product managers and data scientists to design scalable analytics solutions, processing 1M+ data points daily across multiple manufacturing verticals
+              Collaborated with product managers and data scientists to design
+              scalable analytics solutions, processing 1M+ data points daily
+              across multiple manufacturing verticals
             </li>
           </ul>
         </>
@@ -97,24 +116,67 @@ export const RESUME_DATA: ResumeData = {
   ],
   skills: [
     // Frontend Technologies
-    "React.js", "Next.js", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS",
+    "React.js",
+    "Next.js",
+    "Angular",
+    "TypeScript",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
     // Backend & APIs
-    "Node.js", "Java", "Rust", "REST APIs", "GraphQL", "WebSocket", "Microservices",
+    "Node.js",
+    "Java",
+    "Rust",
+    "REST APIs",
+    "GraphQL",
+    "WebSocket",
+    "Microservices",
     // Databases & ORMs
-    "PostgreSQL", "Redis", "Redis Streams", "Prisma", "Supabase", "RDF", "Vector Databases",
+    "PostgreSQL",
+    "Redis",
+    "Redis Streams",
+    "Prisma",
+    "Supabase",
+    "RDF",
+    "Vector Databases",
     // Cloud & DevOps
-    "AWS", "Docker", "CI/CD", "GitHub Actions", "GitLab CI/CD", "Kubernetes", "Terraform",
+    "AWS",
+    "Docker",
+    "CI/CD",
+    "GitHub Actions",
+    "GitLab CI/CD",
+    "Kubernetes",
+    "Terraform",
     // Testing & Quality
-    "Jasmine", "Karma", "Jest", "Unit Testing", "Integration Testing", "Test Coverage",
+    "Jasmine",
+    "Karma",
+    "Jest",
+    "Unit Testing",
+    "Integration Testing",
+    "Test Coverage",
     // Tools & Frameworks
-    "Turborepo", "Monorepo", "PWA", "AI/ML", "Machine Learning", "Embeddings",
+    "Turborepo",
+    "Monorepo",
+    "PWA",
+    "AI/ML",
+    "Machine Learning",
+    "Embeddings",
   ],
   projects: [
     {
       title: "Recall.ai",
-      techStack: ["Next.js", "AI Embeddings", "Vector DB", "Supabase", "OAuth", "Slack/Gmail APIs"],
+      techStack: [
+        "Next.js",
+        "AI Embeddings",
+        "Vector DB",
+        "Supabase",
+        "OAuth",
+        "Slack/Gmail APIs",
+        "RAG Search",
+      ],
       description:
-        "Built enterprise-grade AI-powered personal search engine processing 10K+ documents with semantic search capabilities. Implemented secure OAuth integration with 4+ platforms, vector embeddings for 1M+ data points, and real-time synchronization across Gmail, Google Docs, Slack, and Notion APIs. Achieved 95% search accuracy and 200ms response time for complex queries.",
+        "Built enterprise-grade AI-powered personal search engine processing 10K+ documents with semantic search capabilities using RAG search and GPT-4. Implemented secure OAuth integration with 4+ platforms, vector embeddings for 1M+ data points, and real-time synchronization across Gmail, Google Docs, Slack, and Notion APIs. Achieved 95% search accuracy and 200ms response time for complex queries.",
       link: {
         label: "Live",
         href: "https://recallai.chayannath.online",
